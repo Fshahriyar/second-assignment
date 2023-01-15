@@ -343,7 +343,7 @@ color: #131313;
         grid-template-columns: repeat(1,2fr);
         gap: 10px;
         margin-top: 10px; 
-        margin-left: 50px;
+        margin-left: 10px;
         margin-bottom: 200px;
     }
     .main-partb{
@@ -382,4 +382,150 @@ color: #131313;
     .main-button:hover{
         background-color: chartreuse;
     }
+
+    /* main body part b  */
+.main-part-b{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-bottom: 40px;
+}
+.main-body-a{
+    padding-top: 30px;
+   padding-left: 5px;
+}
+.hha-design{
+    border-left: 5px solid orange;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.ppa-design{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.box-design{
+    width: 300px;
+    height: 50px;
+    background-color: #FF900E;
+}
+.box-design-1,.box-design-2,.box-design-3,.box-design-4{
+        height: 100px;
+        width: 450px;
+        border-radius: 8px;
+        background: #FFFFFF;
+        box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px 6px;
+}
+.add-main{
+    background: url(images/architect.png);
+    width: 50px;
+    height: 8s0px;
+    padding-left:10px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
+.bttn{
+    margin-top: 770px;
+    margin-right: 200px;
+    padding: 30px 40px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+}
+.bttn:hover{
+    background-color: chartreuse;
+}
+section{
+    padding-top: 90px;
+    margin-bottom: 40px;
+ }
+ .sec-part{
+    padding-bottom: 80px;
+    padding-left: 70px;
+ }
+ .hhhc{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+ }
+.section-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5px 5px;
+    gap: 20px;
+}
+.box{
+    background: white;
+    border: #FF900E;
+    border-style: solid;
+    text-align: center;
+    margin: 1px 50px;
+    padding: 15px 5px;
+    border-width: 1px;
+}
+.box:hover{
+    background-color: chartreuse;
+}
+/* extra section */
+.extra-section{
+    background: white;
+    border: green;
+    border-style: double;
+    text-align: center;
+    padding: 5px 5px;
+    border-width: 10px;
+    margin: 10px 30px;
+}
+.extra{
+    text-align: center;
+}
+.extrah{
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 53px; 
+    color: #131313;
+    margin-bottom: 10px;
+}
+/* footer part b  */
+
+.section-part-b{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+.hsec{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.psec{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.sectionb-design{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 3px 5px;
+}
+.footer{
+    text-align: center;
+    margin-top: 70px;
+    background-color: bisque;
+    width: 250px;
+    height: 300px;
+    padding: 30px 30px;
+    margin: 50px 30px;
+}
 }
