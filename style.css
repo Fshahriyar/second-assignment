@@ -117,7 +117,9 @@ color: #131313;
     color: #727272;
     margin-bottom: 30px;
 }
-
+.main-button:hover{
+    background-color: chartreuse;
+}
  /* main body part b  */
 .main-part-b{
     display: flex;
@@ -169,4 +171,215 @@ color: #131313;
     background-color: #FF900E;
     color: white;
     border: none;
+}
+.bttn:hover{
+    background-color: chartreuse;
+}
+
+ /* section part  */
+
+ section{
+    padding-top: 90px;
+    margin-bottom: 40px;
+ }
+ .sec-part{
+    padding-bottom: 80px;
+    padding-left: 70px;
+ }
+ .hhhc{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+ }
+.section-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 5px 60px;
+    gap: 50px;
+}
+.box{
+    background: white;
+    border: #FF900E;
+    border-style: solid;
+    text-align: center;
+    margin: 1px 50px;
+    padding: 15px 5px;
+    border-width: 1px;
+}
+.box:hover{
+    background-color: chartreuse;
+}
+ /* extra section */
+.extra-section{
+    background: white;
+    border: green;
+    border-style: double;
+    text-align: center;
+    padding: 25px 15px;
+    border-width: 10px;
+    margin: 100px 300px;
+}
+.extra{
+    text-align: center;
+}
+.extrah{
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 53px; 
+    color: #131313;
+    margin-bottom: 10px;
+}
+ /* footer part b  */
+
+.section-part-b{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+.hsec{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.psec{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.sectionb-design{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+.footer{
+    text-align: center;
+    margin-top: 70px;
+    background-color: bisque;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 100px 100px;
+}
+
+/* media query */
+
+@media  screen and (max-width: 576px){
+    .nav-desgin{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+        margin-bottom:15px; 
+    }
+    .h1-design{
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 53px;
+        text-align: center;
+        color: #131313;
+        padding-left: 5px;
+    }
+    ul{
+        display: flex;
+        padding-right: 110px;
+        padding-top: 12px;
+    }
+    nav ul li{
+        list-style: none;
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #424242;
+    }
+    /* header part 2 design */
+    
+    .partb{
+        text-align: center;
+    }
+    .partb-h{
+        font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    }
+    .partb-p{
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #424242;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .header-button{
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    .header-img{
+        width: 80%;
+        height: 100%;
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+    /* main part a */
+    .main-parta{
+        margin-bottom: 20px;
+    }
+    .main-img{
+        width: 20px;
+        height: 10px;
+        grid-template-columns: repeat(1,2fr);
+        gap: 10px;
+        margin-top: 10px; 
+        margin-left: 50px;
+        margin-bottom: 200px;
+    }
+    .main-partb{
+        padding-top: 1410px;
+        padding-right: 46px;
+        margin-bottom: 10px; 
+    }
+    .ha-design{
+        color: #727272;
+    }
+    .hb-design{
+        color: #FF900E;
+    }
+    .h-design{
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 53px;
+        color: #131313;
+        margin-bottom: 10px;
+    }
+    .main-button{
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    .p-desgin{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        margin-bottom: 30px;
+    }
+    .main-button:hover{
+        background-color: chartreuse;
+    }
 }
