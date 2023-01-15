@@ -21,8 +21,8 @@
 }
 ul{
     display: flex;
-    padding-right: 30px;
-    padding-top: 15px;
+    padding-right: 120px;
+    padding-top: 12px;
 }
 nav ul li{
     list-style: none;
@@ -61,4 +61,50 @@ button{
     padding: 15px 25px;
     border-radius: 8px;
     margin-bottom: 30px;
+}
+.header-img{
+    width: 850px;
+    height: 100%;
+    padding-left: 240px;
+    margin-bottom: 20px;
+}
+
+/* main body part a  */
+.main-parta{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main-img{
+    width: 200px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10px;
+    margin-top: 70px;
+    margin-left: 110px;
+}
+.main-partb{
+    padding-top: 310px;
+    padding-right: 46px;
+}
+.ha-design{
+    color: #727272;
+}
+.hb-design{
+    color: #FF900E;
+}
+.h-design{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.p-desgin{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 15px;
 }
