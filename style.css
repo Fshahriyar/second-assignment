@@ -54,7 +54,7 @@ color: #131313;
     padding-top: 30px;
     padding-bottom: 20px;
 }
-button{
+.header-button{
     background-color: orange;
     color: white;
     border: none;
@@ -87,6 +87,7 @@ button{
 .main-partb{
     padding-top: 310px;
     padding-right: 46px;
+    margin-bottom: 250px;
 }
 .ha-design{
     color: #727272;
@@ -101,10 +102,71 @@ button{
     color: #131313;
     margin-bottom: 10px;
 }
+.main-button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
 .p-desgin{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+ /* main body part b  */
+.main-part-b{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.main-body-a{
+    padding-top: 30px;
+   padding-left: 60px;
+}
+.hha-design{
+    border-left: 5px solid orange;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.ppa-design{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.box-design{
+    width: 500px;
+    height: 100px;
+    background-color: #FF900E;
+}
+.box-design-1,.box-design-2,.box-design-3,.box-design-4{
+        height: 100px;
+        width: 550px;
+        border-radius: 8px;
+        background: #FFFFFF;
+        box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px 15px;
+}
+.add-main{
+    background: url(images/architect.png);
+    width: 500px;
+    height: 830px;
+    padding-left:100px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+.bttn{
+    margin-top: 770px;
+    margin-right: 200px;
+    padding: 30px 40px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
 }
